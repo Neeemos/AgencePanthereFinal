@@ -1,6 +1,6 @@
 # Final Agence Pathère
 
-Version final de l'agence pathère a Lyon.
+Version final de l'agence panthère a Lyon.
 
 
 ## Demo
