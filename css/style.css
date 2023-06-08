@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -701,7 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 15px auto;
 }
 
 h2 {
@@ -741,6 +741,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -775,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;   
 }
 
 .btn-atomic-tangerine {
@@ -810,19 +811,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("../img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1040,67 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-block .resized {
+    width: 45% !important;
+}
+
+@media (max-width: 768px) {
+    .portfolio-block .resized {
+        width: 65% !important
+    }
+}
+
+.resized {
+    width: 65% !important
+}
+
+@media (max-width: 768px) {
+    .resized {
+        width: 100% !important;
+    }
+}
+
+.text-center .custom-paragraph {
+    font-size: 1.4em;
+}
+
+.text-center .custom-italic {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.bloc-8 .col-sm-12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloc-8 .col-sm-12 .row.row-no-gutters.social {
+    justify-content: space-between;
+    margin-bottom: 20px !important
+}
+
+@media (max-width: 767px) {
+    .row.row-no-gutters {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.row.center {
+    justify-content: center;
+    display: flex;
+}
+
+.row-no-gutters .keywords {
+    color: #F3976C;
 }
